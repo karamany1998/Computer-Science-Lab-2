@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\mkara\source\repos\Strassenverkehr\Aufgabenblock_1\main.cpp(345,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mkara\source\repos\Strassenverkehr\Aufgabenblock_1\main.cpp(385,22): error C2059: syntax error: '<'
