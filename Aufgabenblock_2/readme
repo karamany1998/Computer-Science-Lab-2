@@ -1,1 +1,10 @@
 
+Second part of CS Lab 2 which adds an abstract base class(Simulation object) and another class called Weg(Road).
+Fahrzeug(Vehicle) and Weg(Road) are both derived classes from Simulation object, PKW(Personal Car) and Fahhrad(Bike) are both derived classes from Fahrzeug(Vehicle).
+
+I also added a class called Verhalten(Behavior) which and two child-classes Fahren(Driving) and Parken(parked).
+The class Fahrzeug(Vehile) has a member variable which is a pointer to Verhalten(Behavior) which determine whether the vehicle is parked or driving. 
+This is an example of State-Behavioral pattern.
+
+
+To manage exceptions, I've added an Exception class called Fahrausnahme with two sub-classes Streckenende(RoadEnd) and Losfahren(BeginDrive). 
